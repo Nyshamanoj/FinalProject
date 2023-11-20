@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-01T21:38:08 PDT" name="Suite" finished-at="2023-11-01T21:41:46 PDT" duration-ms="217435">
+    <groups>
+      <group name="regression">
+        <method signature="NoteTest.verifyAddNote()[pri:1, instance:test.NoteTest@4f32a3ad]" name="verifyAddNote" class="test.NoteTest"/>
+        <method signature="NoteTest.verifySearchNote()[pri:2, instance:test.NoteTest@4f32a3ad]" name="verifySearchNote" class="test.NoteTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="NoteTest.verifyAddNote()[pri:1, instance:test.NoteTest@4f32a3ad]" name="verifyAddNote" class="test.NoteTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-11-01T21:38:08 PDT" name="Test" finished-at="2023-11-01T21:41:46 PDT" duration-ms="217435">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.LoginTest@7c137fd5]" started-at="2023-11-01T21:38:11 PDT" name="beforeMethod" finished-at="2023-11-01T21:38:30 PDT" duration-ms="18426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7c137fd5]" started-at="2023-11-01T21:38:30 PDT" name="f" data-provider="userData" finished-at="2023-11-01T21:38:33 PDT" duration-ms="3749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.LoginTest@7c137fd5]" started-at="2023-11-01T21:38:33 PDT" name="takeScreenShotOnFailure" finished-at="2023-11-01T21:38:36 PDT" duration-ms="2963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=LoginTest.f(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@7c137fd5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.NoteTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:38:36 PDT" name="beforeMethod" finished-at="2023-11-01T21:38:43 PDT" duration-ms="6920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddNote()[pri:1, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:38:43 PDT" name="verifyAddNote" finished-at="2023-11-01T21:38:52 PDT" duration-ms="8809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:38:52 PDT" name="takeScreenShotOnFailure" finished-at="2023-11-01T21:38:57 PDT" duration-ms="4869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddNote status=SUCCESS method=NoteTest.verifyAddNote()[pri:1, instance:test.NoteTest@4f32a3ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:38:57 PDT" name="beforeMethod" finished-at="2023-11-01T21:39:05 PDT" duration-ms="8283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySearchNote()[pri:2, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:39:05 PDT" name="verifySearchNote" finished-at="2023-11-01T21:39:13 PDT" duration-ms="7332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:39:13 PDT" name="takeScreenShotOnFailure" finished-at="2023-11-01T21:39:18 PDT" duration-ms="4868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchNote status=SUCCESS method=NoteTest.verifySearchNote()[pri:2, instance:test.NoteTest@4f32a3ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:39:18 PDT" name="beforeMethod" finished-at="2023-11-01T21:39:26 PDT" duration-ms="8156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyEditNote()[pri:3, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:39:26 PDT" name="verifyEditNote" finished-at="2023-11-01T21:39:34 PDT" duration-ms="8508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:39:34 PDT" name="takeScreenShotOnFailure" finished-at="2023-11-01T21:39:38 PDT" duration-ms="4214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEditNote status=SUCCESS method=NoteTest.verifyEditNote()[pri:3, instance:test.NoteTest@4f32a3ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:39:38 PDT" name="beforeMethod" finished-at="2023-11-01T21:39:44 PDT" duration-ms="5564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyDeleteNote()[pri:4, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:39:44 PDT" name="verifyDeleteNote" finished-at="2023-11-01T21:39:52 PDT" duration-ms="7951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteNote -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.NoteTest@4f32a3ad]" started-at="2023-11-01T21:39:52 PDT" name="takeScreenShotOnFailure" finished-at="2023-11-01T21:40:11 PDT" duration-ms="18500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDeleteNote status=SUCCESS method=NoteTest.verifyDeleteNote()[pri:4, instance:test.NoteTest@4f32a3ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- test.NoteTest -->
+      <class name="test.ClientTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:40:11 PDT" name="beforeMethod" finished-at="2023-11-01T21:40:23 PDT" duration-ms="12492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddClient()[pri:1, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:40:23 PDT" name="verifyAddClient" finished-at="2023-11-01T21:40:38 PDT" duration-ms="15274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddClient -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:40:38 PDT" name="takeScreenShotOnFailure" finished-at="2023-11-01T21:40:53 PDT" duration-ms="14568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddClient status=SUCCESS method=ClientTest.verifyAddClient()[pri:1, instance:test.ClientTest@6f53b8a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:40:53 PDT" name="beforeMethod" finished-at="2023-11-01T21:41:01 PDT" duration-ms="8058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySearchClient()[pri:2, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:41:01 PDT" name="verifySearchClient" finished-at="2023-11-01T21:41:07 PDT" duration-ms="6312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchClient -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:41:07 PDT" name="takeScreenShotOnFailure" finished-at="2023-11-01T21:41:12 PDT" duration-ms="4854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchClient status=SUCCESS method=ClientTest.verifySearchClient()[pri:2, instance:test.ClientTest@6f53b8a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:41:12 PDT" name="beforeMethod" finished-at="2023-11-01T21:41:19 PDT" duration-ms="6612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyEditClient()[pri:3, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:41:19 PDT" name="verifyEditClient" finished-at="2023-11-01T21:41:26 PDT" duration-ms="7697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditClient -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:41:26 PDT" name="takeScreenShotOnFailure" finished-at="2023-11-01T21:41:28 PDT" duration-ms="2014" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEditClient status=SUCCESS method=ClientTest.verifyEditClient()[pri:3, instance:test.ClientTest@6f53b8a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:41:28 PDT" name="beforeMethod" finished-at="2023-11-01T21:41:35 PDT" duration-ms="6914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyDeleteClient()[pri:4, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:41:35 PDT" name="verifyDeleteClient" finished-at="2023-11-01T21:41:43 PDT" duration-ms="8002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteClient -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:test.ClientTest@6f53b8a]" started-at="2023-11-01T21:41:43 PDT" name="takeScreenShotOnFailure" finished-at="2023-11-01T21:41:46 PDT" duration-ms="2295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDeleteClient status=SUCCESS method=ClientTest.verifyDeleteClient()[pri:4, instance:test.ClientTest@6f53b8a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- test.ClientTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
